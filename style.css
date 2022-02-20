@@ -39,6 +39,8 @@ blockquote span {
 section{
   margin: 0 auto;
   max-width: 980px;
+  color: lightblue;
+  font-size: 100%
 }
 
 p:first-child{
