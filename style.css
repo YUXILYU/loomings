@@ -2,14 +2,39 @@ body{
   font-family:sans-serif;
 
 background-color: hsla(50, 33%, 25%, .75);
+font-size: 50%;
+line-height: 1;
+margin: 75px 35px;
 
 }
 
 h1{
-  color: green;
+ color: #00ff00;
 }
 
 
 .hello{
-  color: hsla(30, 100%, 50%, .3);
+  color: hsl(30, 100%, 50%);
+}
+
+h1 span{
+  font-size: 100%
+  font-style: italic;
+}
+
+.change{
+  color: aqua;
+
+}
+
+p:first-child{
+  color: firebrick;
+}
+
+p:last-child{
+  color: gold;
+}
+
+p:only-child{
+  color: lightcyan;
 }
