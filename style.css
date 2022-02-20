@@ -2,7 +2,7 @@ body{
   font-family:sans-serif;
 
 background-color: hsla(50, 33%, 25%, .75);
-font-size: 50%;
+font-size: 150%;
 line-height: 1;
 margin: 75px 35px;
 
@@ -15,16 +15,29 @@ h1{
 
 .hello{
   color: hsl(30, 100%, 50%);
+  font-size: 200%
 }
 
 h1 span{
-  font-size: 100%
+  font-size: 250%
   font-style: italic;
 }
 
-.change{
-  color: aqua;
+.blockquote{
+  color: darkmagenta;
 
+}
+
+blockquote span {
+	font-size: 200%;
+	font-style: italic;
+  font-weight: bold;
+  color: azure;
+}
+
+section{
+  margin: 0 auto;
+  max-width: 980px;
 }
 
 p:first-child{
